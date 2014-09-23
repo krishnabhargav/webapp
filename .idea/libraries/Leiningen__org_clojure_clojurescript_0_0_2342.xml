@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.clojure/clojurescript:0.0-2342">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojurescript/0.0-2342/clojurescript-0.0-2342.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojurescript/0.0-2342/clojurescript-0.0-2342-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

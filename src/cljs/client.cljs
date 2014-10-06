@@ -1,9 +1,9 @@
 (ns webapp.client
-  (:require
-    [figwheel.client :as fw :include-macros true]))
+  (:require [clojure.browser.repl :as repl]))
 
-(fw/watch-and-reload)
+;            [figwheel.client :as fw :include-macros true]))
+; (fw/watch-and-reload)
 
-(js/alert "Hello Zumanji")
+(repl/connect "http://localhost:58770/6431/repl")
 
-
+(js/alert "Hello Buddiiigaa")

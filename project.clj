@@ -16,6 +16,7 @@
 
                            ;;clojurescript
                            [org.clojure/clojurescript "0.0-2342"]
+                           [om "0.7.3"]
                            [figwheel "0.1.4-SNAPSHOT"]]
 
             :plugins [[lein-cljsbuild "1.0.3"]
@@ -24,13 +25,13 @@
             :main webapp.server
 
             :cljsbuild {
-                         :builds [{
-                                    :source-paths ["src/cljs"]
-                                    :compiler     {
-                                                    :output-to     "resources/public/js/main.js"
-                                                    :output-dir    "resources/public/js"
-                                                    :optimizations :none
-                                                  }}]}
+                :builds [{
+                     :source-paths ["src/cljs"]
+                     :compiler     {
+                             :output-to     "resources/public/js/main.js"
+                             :output-dir    "resources/public/js"
+                             :optimizations :none }
+            }]}
 
             :profiles {:dev {:plugins [[com.cemerick/austin "0.1.5"]]}}
 
